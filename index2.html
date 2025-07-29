@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test RevoU Bootcamp</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <p class="text-3xl pb-4 text-blue-500 font-bold  pl-6 pt-4 bg-yellow-100">Hello World!</p>
+    <hr/>
+    <p>Halo, nama saya <br/> Anisa.</p>
+    <!-- ini komentar untuk baris, ini bisa pakai short cut ctrl + / -->
+    <h1>Ini heading 1</h1>
+    <h2>Ini heading 2</h2>
+    <h3>Ini heading 3</h3>
+    <h4>Ini heading 4</h4>
+    <h5>Ini heading 5</h5>
+    <h6>Ini heading 6</h6>
+    <p>Teks ini ada <b>bold</b> nya, <i>italic</i> nya,.</p>
+    <p>Ini tulisan yang ke <sub>bawah</sub> dan ke <sup>atas</sup></p>
+    <h1>Bullet poin</h1>
+    <ul type="disc"> 
+        <!-- unordered list -->
+        <li>Pisang <p>pisang adalah buah-buahan yang bisa dimakan</p></li>
+        <li>Apel</li>
+        <li>Mangga</li>
+        <!-- list item -->
+        <li>Jeruk</li>
+    </ul>
+    <h1>Urutan angka</h1>
+    <p>Cara menjalankan HTML pakai vscode:</p>
+    <!-- ordered list -->
+    <ol type="I">
+        <li>Buka VSCodenya</li>
+        <li>Open folder project yang akan dikerjakan</li>
+        <li>Buat file index.html</li>
+        <li>Isi file index.html diawali dengan html:5</li>
+        <li>Jalankan dengan live preview extension dari Microsoft</li>
+    </ol>
+
+    <h1>Table</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Company</th>
+                <th>Contact</th>
+                <th>country</th>
+            </tr>
+            <tr>
+                <th>head baru</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alfred</td>
+                <td>abcde@abcde</td>
+                <td>Germany</td>
+            </tr>
+            <tr>
+                <td>Budi</td>
+                <td>budi@budi.com</td>
+                <td>Indonesia</td>
+            </tr>
+            <tr>
+                <td>Charlie</td>
+                <td>charlie@charlie.com</td>
+                <td>USA</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>Gambar</h1>
+    <!-- Posisinya sejajar dengan index.html -->
+    <img src="./revou.png" height="150px" alt="Logo RevoU"/>
+
+    <!-- Posisinya di dalam folder yang sama dengan project -->
+    <img src="/images/revou.png" height="150px" alt="Logo RevoU"/>
+
+    <!-- Image nya dari URL luar -->
+    <img src="https://pin.it/6lXrZDFHd" alt="Mobil Merah"/>
+
+    <h1>Link</h1>
+    <p>Ini adalah link ke
+    <a href="https://www.revou.co/" target="_blank">RevoU</a></p>
+    <a href="./second.html">SECOND HTML</a>
+    <a href="#lorem">Go to Lorem</a>
+
+    <h1>Form Contact Us</h1>
+    <form>
+        <label>Nama</label>
+        <input type="text" placeholder="Tulis nama anda..."/>
+        <br/>
+        <label>Umur</label>
+        <input type="number" min="0" max="120" placeholder="19"/>
+        <br/>
+        <label>password</label>
+        <input type="password">
+        <br/>
+        <label>Jenis Kelamin</label>
+        <input type="radio" value="male" name="Jenis-kelamin">Laki-laki
+        <input type="radio" value="female" name="Jenis-kelamin">Perempuan
+        
+        <br/>
+        <label>Makanan Favorit</label>
+        <select>
+            <option value="nasi-goreng">Nasi Goreng</option>
+            <option value="sate">Sate</option>
+            <option value="soto">Soto</option>
+            <option value="bakso">Bakso</option>
+            <option value="mie-ayam">Mie Ayam</option>
+        </select>
+        <label>Comment</label>
+        <br/>
+        <textarea rows="5" cols="30" placeholder="Tulis komentar anda disini..."></textarea>
+        <br/>
+        <input type="checkbox"/>Saya setuju dengan syarat dan ketentuan 
+        <input type="submit" value="Kirim"/>
+
+        <button type="submit">Send</button>
+
+    </form>
+
+    <p id="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolore ex eaque veniam inventore delectus id consectetur rem quis error quae debitis, molestias vel quod, aperiam cum atque magnam animi!</p>
+</body>
+</html>
